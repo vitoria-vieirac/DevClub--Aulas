@@ -1,6 +1,6 @@
 const number = 7
 
-function result() {
+function resultt() {
 if(number%2 == 0) {
    console.log("O número é par")
 } else {
@@ -8,7 +8,7 @@ if(number%2 == 0) {
 }
 }
 
-result()
+resultt()
 
 const number1 = 8
 const number2 = 3
@@ -55,3 +55,18 @@ function age() {
 }
 
 age()
+
+
+
+let number6 = 0
+
+function start() {
+    
+    contagem = setInterval(() => {
+
+    console.log(number6++)
+    
+}, 1000);
+}
+
+start()
